@@ -29,9 +29,9 @@ rectangle()
 
 def equal():
     t.forward(90)
-    t.left(60)
+    t.left(120)
     t.forward(90)
-    t.left(60)
+    t.left(120)
     t.forward(90)
 equal()
 
