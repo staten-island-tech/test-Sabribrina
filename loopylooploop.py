@@ -32,11 +32,52 @@ def square(x,y):
         t.left(y)
 square(100,90) """
 
+""" def square(x):
+            t.forward(x)
+            t.left(90)
+            t.forward(x)
+            t.left(90)
+            t.forward(x)
+            t.left(90)
+            t.forward(x)
+            t.left(90)
 def doubleSquares(iRange):
     length = 25
     for i in range(iRange):
-        doubleSquares(length, 90)
-        length += length * 2
-doubleSquares(5)
+        square(length)
+        length = length * 2
+doubleSquares(5) """
+
+""" def square(x):
+    t.forward(x)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+def addSquares(iRange):
+    length = 25
+    for i in range(iRange):
+        square(length)
+        length += 25
+addSquares(5) """
+
+def addSquares(iRange):
+    length = 5
+    for i in range(iRange):
+        def square(x):
+            t.forward(x)
+            t.left(90)
+            t.forward(x)
+            t.left(90)
+            t.forward(x)
+            t.left(90)
+            t.forward(x)
+            t.left(90)
+        square(length)
+        length += 25
+addSquares(5)
 
 turtle.done()
